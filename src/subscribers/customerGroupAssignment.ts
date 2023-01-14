@@ -17,7 +17,6 @@ class CustomerGroupAssignmentSubscriber {
   }
 
   handleGroupAssignment = async (data) => {
-    console.log(data);
 
     let customerGroup;
 
