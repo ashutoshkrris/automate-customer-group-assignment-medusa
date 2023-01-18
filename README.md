@@ -32,18 +32,23 @@ _You may change these steps per your article._
     npm install
     ```
 
-3. Seed the data:
+3. Run the following command to create a `.env` file:
+    ```bash
+    mv .env.template .env
+    ```
+
+4. Seed the data:
     ```bash
     medusa seed -f ./data/seed.json
     ```
 
-4. Build the project:
+5. Build the project:
 
     ```bash
     npm run build
     ```
 
-5. Start Server:
+6. Start Server:
 
     ```bash
     medusa develop
