@@ -16,7 +16,7 @@ class CustomerGroupAssignmentSubscriber {
     properties.eventBusService.subscribe("customer.created", this.handleGroupAssignment);
   }
 
-  handleGroupAssignment = async (data) => {
+  handleGroupAssignment = async (customer) => {
 
     let customerGroup;
 
@@ -31,7 +31,7 @@ class CustomerGroupAssignmentSubscriber {
     }
 
     // Add customer to "New Customers" customer group
-    await this.customerGroupService.addCustomers(customerGroup.id, data.id);
+    await this.customerGroupService.addCustomers(customerGroup.id, customer.id);
   }
 }
 
