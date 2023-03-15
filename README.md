@@ -1,6 +1,6 @@
 # How to Automate Customer Group Assignment in Medusa
 
-This repository is the codebase of tutorial [How to Automate Customer Group Assignment in Medusa](tutorial-link).
+This repository is the codebase of tutorial [How to Automate Customer Group Assignment in Medusa](https://medusajs.com/blog/customer-group-automation/).
 
 [Medusa Documentation](https://docs.medusajs.com/) | [Medusa Website](https://medusajs.com/) | [Medusa Repository](https://github.com/medusajs/medusa)
 
